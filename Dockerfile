@@ -1,4 +1,4 @@
-FROM circleci/python:3.6.1
+FROM circleci/python:3.6.6
 
 #install gcloud sdk with all stuff
 RUN export CLOUDSDK_CORE_DISABLE_PROMPTS=1 && \
